@@ -1,0 +1,72 @@
+.home {
+    margin: 0;
+    background-image: url('/static/backround.jpg'); background-repeat: no-repeat; background-size: auto
+}
+
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+        text-shadow:
+        0 0 7px #ffd1dc,
+        0 0 14px #ffd1dc
+}
+
+h1 {
+    color: #b2e1ff; text-shadow: 0 0 7px #d0b2ff, 0 0 14px #ffd1dc;
+}
+
+.instagram {
+    float: right; height: 40px; width: 40px; background-image: url(static/instagram.jpg); background-size: cover
+}
+.topbar {
+    min-height: 40px; padding: 10px 15px; background: #ffd1dc; border-bottom: 5px #d0b2ff solid; background-attachment: scroll
+}
+
+.topbar-h3 {
+    float: left; padding: 0px 15px;  margin-top: 10px
+}
+
+.icon {
+    float: left;
+}
+
+.topmenu {
+    padding-top: 1px;
+}
+
+.main {
+    margin-left: 10%; margin-right: 10%; margin-top: 10px;
+    background-color: #00000070;
+    border: solid 2px #d0b2ff; /*border-top: transparent;*/ border-radius: 12px;/*border-bottom-right-radius: 12px; border-bottom-left-radius: 12px;*/ padding: 5px
+}
+
+p {
+    padding: 4px; background-color: #00000020; color: #b2e1ff; border-radius: 12px;
+    /*width: 60%;*/
+    text-align: left;
+}
+
+.sidebartext {
+        padding: 4px; background-color: #00000020; color: #b2e1ff; border-radius: 12px;
+
+        text-anchor: left;
+        position: sticky;
+        position-anchor: left;
+}
+
+.mainsidebar {
+    float: right; padding-right: 5px; border: solid 2px #d0b2ff;border-radius: 12px; background-color: transparent;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    text-align: left;
+}
+
+.gallery {
+     margin: 0;
+}
+
+.background-blur {
+background-image: url('/static/backround-blur.jpg'); background-repeat: no-repeat; background-size: auto
+}
