@@ -1,6 +1,6 @@
 .home {
     margin: 0;
-    background-image: url('/static/backround.jpg'); background-repeat: no-repeat; background-size: 100%; position: static
+    background-image: url('/static/backround.jpg'); background-repeat: no-repeat; background-size: 100%
 }
 
 
@@ -74,5 +74,5 @@ p {
 }
 
 .background-blur {
-background-image: url('/static/backround-blur.jpg'); background-repeat: no-repeat; background-size: 100%; position: static
+background-image: url('/static/backround-blur.jpg'); background-repeat: no-repeat; background-size: 100%
 }
