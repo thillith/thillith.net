@@ -22,6 +22,10 @@ h1 {
     color: #b2e1ff; text-shadow: 0 0 7px #d0b2ff, 0 0 14px #ffd1dc;
 }
 
+.github {
+    float: right; height: 40px; width: 40px; background-image: url(static/GitHub_Invertocat_Black.jpg); background-size: cover
+}
+
 .instagram {
     float: right; height: 40px; width: 40px; background-image: url(static/instagram.jpg); background-size: cover
 }
