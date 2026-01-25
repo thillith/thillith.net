@@ -7,8 +7,8 @@ a {
     text-decoration: none;
     color: inherit;
         text-shadow:
-        0 0 7px #71368a,
-        0 0 14px #71368a
+        0 0 7px #ffd1dc,
+        0 0 14px #ffd1dc
 }
 
 h1 {
@@ -23,7 +23,7 @@ h1 {
 }
 
 .topbar-h3 {
-    float: left; padding: 0px 15px;  margin-top: 10px;
+    float: left; padding: 0px 15px;  margin-top: 10px; color: #71368a
 }
 
 .topbar-h3-right {
@@ -38,6 +38,11 @@ h1 {
 
 .topmenu {
     padding-top: 1px;
+        text-decoration: none;
+    color: inherit;
+        text-shadow:
+        0 0 7px #71368a,
+        0 0 14px #71368a
 }
 
 .main {
