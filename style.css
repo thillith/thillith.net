@@ -60,19 +60,8 @@ h1 {
     margin-left: 10%; margin-right: 10%; margin-top: 10px;
     background-color: #00000070;
     border: solid 2px #d0b2ff; /*border-top: transparent;*/ border-radius: 12px;/*border-bottom-right-radius: 12px; border-bottom-left-radius: 12px;*/ padding: 5px;
-    animation: startup 1s ease-out forwards;
 }
 
-@keyframes startup {
-    from {
-        transform: translateY(20vh);
-        opacity: 0;
-    }
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
 
 p {
     padding: 4px; background-color: #00000020; color: #b2e1ff; border-radius: 12px;
