@@ -64,7 +64,7 @@ h1 {
 }
 
 @keyframes startup {
-    form {transform: translateY(100%);}
+    from {transform: translateY(100%);}
 }
 
 p {
