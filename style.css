@@ -84,8 +84,7 @@ p {
 }
 
 .gallery {
-    margin: 0;
-    min-width: 60%; min-height: 60%;
+    margin: 0
 }
 
 .background-blur {
