@@ -4,12 +4,6 @@
   }
 }
 
-img {
-    max-width: 70%;
-    max-height: 70%;
-}
-
-
 .home {
     margin: 0;
     background-image: url('/static/backround.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed
