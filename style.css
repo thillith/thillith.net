@@ -100,7 +100,7 @@ background-image: url('/static/backround-blur.jpg'); background-repeat: no-repea
 
 .music-images {
     display: flex;
-    gap: 40px;
+    gap: 20%;
     justify-content: center;
     align-items: center
 }
