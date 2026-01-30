@@ -70,8 +70,7 @@ h1 {
 .error {
     margin-left: 10%; margin-right: 10%; margin-top: 10px;
     background-color: #00000070;
-    border: solid 2px #ff0000; border-radius: 12px; padding: 5px;
-    color: #0000ff
+    border: solid 2px #ff0000; border-radius: 12px; padding: 5px
 }
 
 p {
