@@ -59,6 +59,7 @@ h1 {
     margin-left: 10%; margin-right: 10%; margin-top: 10px;
     background-color: #00000070;
     border: solid 2px #d0b2ff; /*border-top: transparent;*/ border-radius: 12px;/*border-bottom-right-radius: 12px; border-bottom-left-radius: 12px;*/ padding: 5px;
+    color: #b2e1ff
 }
 
 
@@ -96,5 +97,6 @@ background-image: url('/static/backround-blur.jpg'); background-repeat: no-repea
     display: flex;
     gap: 20%;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    text-align: center
 }
