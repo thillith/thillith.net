@@ -11,7 +11,7 @@ img {
 
 .home {
     margin: 0;
-    background-image: url('/static/backround.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed
+    background-image: url('/static/backround.avif'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed
 }
 
 a {
@@ -27,11 +27,11 @@ h1 {
 }
 
 .github {
-    float: right; height: 40px; width: 40px; background-image: url(static/GitHub_Invertocat_Black.jpg); background-size: contain; background-repeat: no-repeat
+    float: right; height: 40px; width: 40px; background-image: url(static/github_invertocat_black.avif); background-size: contain; background-repeat: no-repeat
 }
 
 .instagram {
-    float: right; height: 40px; width: 40px; background-image: url(static/instagram.jpg); background-size: contain; background-repeat: no-repeat; padding-left: 5px
+    float: right; height: 40px; width: 40px; background-image: url(static/instagram.avif); background-size: contain; background-repeat: no-repeat; padding-left: 5px
 }
 .topbar {
     min-height: 40px; padding: 10px 15px; background: #ffd1dc; border-bottom: 5px #d0b2ff solid; background-attachment: scroll
@@ -68,7 +68,8 @@ h1 {
 }
 
 .bottom-bar {
-    border-top: 5px #d0b2ff; background-color: #00000080; 
+    border-top: 50px #d0b2ff; background-color: #00000080; 
+    text-align: center; color: #b2e1ff
 }
 
 .error {
@@ -110,7 +111,7 @@ h2 {
 
 .background-blur {
     margin: 0;
-background-image: url('/static/backround-blur.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed
+background-image: url('/static/backround-blur.avif'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed
 }
 
 .music-images {
