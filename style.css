@@ -27,7 +27,7 @@ h1 {
 }
 
 .github {
-    float: right; height: 40px; width: 40px; background-image: url(static/GitHub_Invertocat_Black.jpg); background-size: contain; background-repeat: no-repeat
+    float: right; height: 40px; width: 40px; background-image: url(static/github_invertocat_black.jpg); background-size: contain; background-repeat: no-repeat
 }
 
 .instagram {
@@ -68,7 +68,8 @@ h1 {
 }
 
 .bottom-bar {
-    border-top: 5px #d0b2ff; background-color: #00000080; 
+    border-top: 50px #d0b2ff; background-color: #00000080; 
+    text-align: center; color: #b2e1ff
 }
 
 .error {
