@@ -68,7 +68,7 @@ h1 {
 }
 
 .bottom-bar {
-    border-top: 50px #d0b2ff; background-color: #00000080; 
+    border-top: solid 2px #d0b2ff; background-color: #00000080; 
     text-align: center; color: #b2e1ff
 }
 
@@ -123,4 +123,8 @@ background-image: url('/static/backround-blur.jpg'); background-repeat: no-repea
 
 .text-centerd {
     text-align: center
+}
+
+.webrings {
+    padding-left: 4%
 }
