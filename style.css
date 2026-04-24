@@ -182,6 +182,44 @@ h2 {
     margin: 1%;
 }
 
+.music-grids {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.music-now {
+    max-width: 45%;
+    min-width: 45%;
+    background-color: #00000070;
+    border: solid 2px #d0b2ff; border-radius: 12px; padding: 5px;
+    color: #b2e1ff;
+}
+
+.music-history {
+    max-width: 45%;
+    min-width: 45%;
+    background-color: #00000070;
+    border: solid 2px #d0b2ff; border-radius: 12px; padding: 5px;
+    color: #b2e1ff;
+}
+
+.music-entry {
+    display: flex;
+    gap: 12px;
+    padding: 2px;
+}
+
+.music-entry img {
+    width: 32px;
+    height: 32px
+}
+
+.music-text {
+    display: flex;
+    flex-direction: column;
+}
+
 .text-centerd {
     text-align: center
 }
