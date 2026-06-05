@@ -6,5 +6,5 @@ animated/
 vendor/
 composer.lock
 composer.json
-composer.pher
+composer.phar
 composer-setup.php
