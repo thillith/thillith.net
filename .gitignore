@@ -2,4 +2,9 @@ ftp/
 .htaccess
 static/
 animated/
-php/
+.env
+vendor/
+composer.lock
+composer.json
+composer.pher
+composer-setup.php

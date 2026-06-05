@@ -1,3 +1,9 @@
 RedirectMatch 404 /.git
 ErrorDocument 404 /error_pages/404.html
 RedirectMatch 404 ^/php/?$
+RedirectMatch 404 /.env
+ErrorDocument 404 vendor/
+ErrorDocument 404 composer.lock
+ErrorDocument 404 composer.json
+ErrorDocument 404 composer.pher
+ErrorDocument 404 composer-setup.php 
