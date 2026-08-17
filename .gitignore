@@ -8,3 +8,4 @@ composer.lock
 composer.json
 composer.phar
 composer-setup.php
+php/xmr.php
