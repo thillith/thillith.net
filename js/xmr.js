@@ -28,4 +28,4 @@ async function loadxmr() {
 }
 
 loadxmr();
-setInterval(loadxmr, 10000);
+setInterval(loadxmr, 300000);
