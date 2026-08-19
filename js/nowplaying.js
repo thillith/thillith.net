@@ -1,4 +1,4 @@
-async function loadxmr() {
+async function nowplaying() {
   const output = document.getElementById("nowplaying");
 
   try {
@@ -23,6 +23,7 @@ async function loadxmr() {
     //Idk how this one works lol, I found it...
     const albumurl = `https://last.fm/music/${encodeURIComponent(track.artist["#text"])}/${encodeURIComponent(track.album["#text"])}`;
 
+    window.nowPlaying = nowPlaying;
 
 
 
@@ -44,5 +45,5 @@ async function loadxmr() {
   }
 }
 
-loadxmr();
-setInterval(loadxmr, 15000);
+nowplaying();
+setInterval(nowplaying, 15000);
