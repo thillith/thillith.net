@@ -15,7 +15,7 @@ async function fetchstatus() {
     const nowPlaying = window.nowPlaying === true;
 
     const statusText =
-    (personastate === 1 || nowPlaying) ? "online" : "offline";
+    (personastate === 1 || nowPlaying) ? "<a>online</a>" : "offline";
 
     output.innerHTML = `
       <div class="main">
