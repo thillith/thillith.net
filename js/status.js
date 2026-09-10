@@ -18,7 +18,7 @@ async function fetchstatus() {
     (personastate === 1 || nowPlaying) ? "<a>online</a>" : "offline";
 
     output.innerHTML = `
-      <div>
+      <div class="main">
         <h3>thillith is: ${statusText}</h3>
       </div>
     `;
