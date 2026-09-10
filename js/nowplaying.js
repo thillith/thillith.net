@@ -30,7 +30,7 @@ async function nowplaying() {
     output.innerHTML = `
         <div class="container">
 
-            <div><p>&gt;<a href="https://last.fm/user/thillith">${nowPlaying ? "Listening to:" : "Last Listened to:"}</a> <a href=${url}>${name} - <a href=${artisturl}><b>${artist}</b></a></p></div>
+            <div><p>&gt;<a href="https://last.fm/user/thillith">${nowPlaying ? "Listening to:" : "Last Listened to:"}</a> <a href=${url}>${name} <br> <a href=${artisturl}><b>${artist}</b></a></p></div>
 
             <div style="display: flex; flex-wrap: wrap; flex-basis: content; align-items: flex-end;
             padding: 4px; background-color: #00000020; border-radius: 12px;"><a href=${albumurl}>${image ? `<img src="${image}" width="96px" height="96">` : ""}</a></div>
